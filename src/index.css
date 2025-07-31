@@ -8,35 +8,53 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Premium Car Mod Dark Theme */
+    --background: 222 47% 2%;
+    --foreground: 0 0% 95%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 222 47% 4%;
+    --card-foreground: 0 0% 95%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 222 47% 6%;
+    --popover-foreground: 0 0% 95%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 0 85% 55%;
+    --primary-foreground: 0 0% 98%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 220 13% 18%;
+    --secondary-foreground: 0 0% 90%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 220 13% 15%;
+    --muted-foreground: 0 0% 65%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 220 13% 25%;
+    --accent-foreground: 0 0% 95%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 220 13% 20%;
+    --input: 220 13% 15%;
+    --ring: 0 85% 55%;
 
-    --radius: 0.5rem;
+    /* Custom Car Mod Colors */
+    --neon-red: 0 100% 50%;
+    --neon-blue: 210 100% 60%;
+    --metallic: 220 10% 40%;
+    --deep-red: 0 70% 25%;
+    --carbon: 220 13% 8%;
+
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(var(--background)), hsl(var(--carbon)));
+    --gradient-neon: linear-gradient(90deg, hsl(var(--neon-red)), hsl(var(--neon-blue)));
+    --gradient-metallic: linear-gradient(135deg, hsl(var(--metallic)), hsl(var(--secondary)));
+
+    /* Shadows */
+    --shadow-neon: 0 0 20px hsl(var(--neon-red) / 0.3);
+    --shadow-glow: 0 0 40px hsl(var(--neon-red) / 0.2);
+    --shadow-card: 0 10px 30px -10px hsl(var(--background) / 0.8);
+
+    --radius: 0.75rem;
 
     --sidebar-background: 0 0% 98%;
 
