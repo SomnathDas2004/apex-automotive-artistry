@@ -45,9 +45,6 @@ const Navigation = () => {
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-neon transition-all duration-300 group-hover:w-full"></span>
               </a>
             ))}
-            <Button variant="outline" className="bg-transparent border-neon-red text-foreground hover:bg-neon-red hover:text-background transition-all duration-300 animate-glow">
-              Book Now
-            </Button>
           </div>
 
           {/* Mobile menu button */}
@@ -77,11 +74,6 @@ const Navigation = () => {
                   {item.name}
                 </a>
               ))}
-              <div className="px-3 py-2">
-                <Button className="w-full bg-gradient-neon text-background hover:opacity-90">
-                  Book Now
-                </Button>
-              </div>
             </div>
           </div>
         )}
